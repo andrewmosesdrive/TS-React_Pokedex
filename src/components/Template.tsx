@@ -2,17 +2,17 @@ import { createUseStyles } from "react-jss";
 import Main from "./Main";
 
 const useStyles = createUseStyles({
-    template: {
-        backgroundColor: 'white',
-        width: 'full',
-    }
+  template: {
+    backgroundColor: 'white',
+    width: 'full',
+  }
 })
 
 export default function Template() {
-    const classes = useStyles();
+  const classes = useStyles();
   return (
     <div className={classes.template}>
-        <Main />
+      <Main />
     </div>
   )
 };
